@@ -1,0 +1,20 @@
+{
+  "incidents": [
+    { "id": "INC1002451", "category": "Pricing", "module": "SD", "priority": "P1", "status": "In Progress", "assignedTo": "Srinath ABAP", "rootCause": "KOMK enhancement missed condition contract field mapping", "resolution": "Patch USEREXIT_PRICING_PREPARE_TKOMK and regression test VA01", "createdDate": "2026-05-27", "slaHours": 4 },
+    { "id": "INC1002462", "category": "IDoc", "module": "MM", "priority": "P2", "status": "Waiting", "assignedTo": "Neha CRM", "rootCause": "Partner profile missing message type ORDERS05", "resolution": "Coordinate with Basis to adjust WE20 and reprocess BD87", "createdDate": "2026-05-28", "slaHours": 8 }
+  ],
+  "ritms": [
+    { "id": "RITM005121", "type": "User Access", "requester": "Sales Ops", "approvalStatus": "Approved", "technicalAssessment": "SU24 trace reviewed; PFCG delta role required", "deliveryStatus": "Ready for QA validation" },
+    { "id": "RITM005142", "type": "Interface Change", "requester": "Integration CoE", "approvalStatus": "Approved", "technicalAssessment": "Extend OData payload with sales org and division", "deliveryStatus": "Build in DEV" }
+  ],
+  "epics": [
+    { "id": "EPC-2401", "description": "S/4HANA sales order analytics CDS enablement", "complexity": "High", "estimatedEffort": 320, "actualEffort": 286, "status": "UAT", "stories": 12, "storyPoints": 89 }
+  ],
+  "repositoryObjects": [],
+  "cdsObjects": [],
+  "odataServices": [],
+  "uatCases": [],
+  "transports": [],
+  "supportEvents": [],
+  "teamMembers": []
+}
